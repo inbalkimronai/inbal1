@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>עיגול לפי קוטר</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 30px;
+      direction: rtl;
+    }
+
+    button {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+
+    canvas {
+      border: 2px solid #999;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>עיגול לפי קוטר</h1>
+  <p>לחץ על הכפתור כדי להזין קוטר ולצייר עיגול.</p>
+  <button id="drawBtn">הזן קוטר</button>
+  <canvas id="circleCanvas" width="500" height="500"></canvas>
+
+  <script src="draw_circle.js"></script>
+</body>
+</html>
